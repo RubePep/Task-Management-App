@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" a href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Task Management App</title>
+</head>
+<body>
+
+    <section class="task-management">
+        <h2>Task Management App</h2>
+        <div class="input">
+            <input type="text" class="input-field" id="taskmanagementInput" placeholder="Add a new task">
+            <button class="btn">Add</button>
+        </div>
+        <ul class="scroll">
+            <li id="taskmanagementList"></li>
+        </ul>
+        <div>
+            <hr class="counter">
+            <div class="counter-container">
+                <p><span id="taskmanagementCount">0</span> tasks total</p>
+                <button id="deleteButton">Delete All</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p class="created-by">Created by</p>
+            <p class="creator">Ruby Pepper</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
